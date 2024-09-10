@@ -1,0 +1,64 @@
+---
+Language:        Cpp
+BasedOnStyle:    Google
+AccessModifierOffset: -2
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments:
+  Enabled:         true
+  PadOperators:    true
+AlignEscapedNewlines: Right
+AlignOperands:   Align
+AlignTrailingComments:
+  Kind:            Always
+AlwaysBreakTemplateDeclarations: MultiLine
+AttributeMacros:
+  - __capability
+BitFieldColonSpacing: Both
+BreakBeforeBinaryOperators: None
+BreakBeforeConceptDeclarations: Always
+BreakBeforeInlineASMColon: OnlyMultiline
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: BeforeColon
+BreakStringLiterals: true
+ColumnLimit:     100
+CommentPragmas:  '^ IWYU pragma:'
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+FixNamespaceComments: true
+ForEachMacros:
+  - foreach
+  - Q_FOREACH
+  - BOOST_FOREACH
+IfMacros:
+  - KJ_IF_MAYBE
+IndentExternBlock: AfterExternBlock
+IndentPPDirectives: None
+IndentRequiresClause: true
+IndentWidth:     2
+JavaScriptWrapImports: true
+KeepEmptyLinesAtTheStartOfBlocks: true
+LambdaBodyIndentation: Signature
+PenaltyBreakFirstLessLess: 120
+PenaltyBreakScopeResolution: 500
+PenaltyReturnTypeOnItsOwnLine: 80
+PointerAlignment: Right
+QualifierAlignment: Leave
+ReferenceAlignment: Pointer
+ReflowComments:  true
+RequiresClausePosition: OwnLine
+RequiresExpressionIndentation: OuterScope
+SortIncludes:    CaseSensitive
+SortUsingDeclarations: LexicographicNumeric
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeRangeBasedForLoopColon: true
+SpacesBeforeTrailingComments: 1
+SpacesInContainerLiterals: true
+SpacesInLineCommentPrefix:
+  Minimum:         1
+TabWidth:        8
+UseTab:          Never
+Standard:        Latest
+...

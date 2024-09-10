@@ -1,0 +1,2 @@
+CompileFlags:
+  Remove: [-fno-ipa-sra, -fno-ipa-sra, -mno-direct-extern-access]
